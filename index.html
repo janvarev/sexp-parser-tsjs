@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>S-expression parser demo</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    
+    <script src="SExpReader.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>S-expression &lt;=&gt; JSON</h1>
+
+    <div id="content"></div>
+
+    S-expression:<br />
+    <textarea id="txtFrom" style="width:300px;" rows="10">(1 (2 3) test "teststr" c)</textarea><br />
+    <hr />
+    <button id="btnSexpToJSON">S-expression to JSON</button> <button id="btnJSONToSexp">JSON to S-expression</button><br />
+    <input type="checkbox" id="chkIsAddPrefix" checked /> add prefix "__" to symbols
+    <hr />
+    JSON:<br />
+    <textarea id="txtTo" style="width:300px;" rows="10"></textarea><br />
+</body>
+</html>
