@@ -2,7 +2,7 @@
 
 S-expression parser for TypeScript&amp;JavaScript with sample HTML app
 
-Parse S-expressions (https://en.wikipedia.org/wiki/S-expression) to array structure; also includes serialization.
+Parse and serialize S-expressions (https://en.wikipedia.org/wiki/S-expression) to array structure.
 Designed for use to make Domain-Specific Languages on S-expressions.
 
 Parser support two modes, which differs in parsing identifiers:
